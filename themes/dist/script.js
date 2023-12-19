@@ -1,7 +1,9 @@
 console.clear()
 
 const themes = ['dark', 'sunset', 'sunrise', 'light'];
+
 let count = 0;
+
 const themePicker = document.getElementById('themePicker');
 const themeList = document.getElementById('themeGrid');
 
@@ -39,10 +41,10 @@ const changeTheme = (theme) => {
 			themeGrid.style.top = '0'
 			break;
 		case theme = 'sunset':
-			themeGrid.style.top = '-3.6rem'
+			themeGrid.style.top = '-3.5rem'
 			break;
 		case theme = 'sunrise':
-			themeGrid.style.top = '-7.1rem'
+			themeGrid.style.top = '-7.0rem'
 			break;
 		case theme = 'light':
 			themeGrid.style.top = '-10.7rem'
